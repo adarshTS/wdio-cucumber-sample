@@ -4,8 +4,8 @@ exports.config = {
   // Runner Configuration
   // ====================
   // WebdriverIO supports running e2e tests as well as unit and component tests.
-  user: "adarshsreeram_y1cpaK",
-  key: "gH9Xyys3zCNXyC81VDo8",
+  user: "BSTACK_USERNAME",
+  key: "BSTACK_ACCESS_KEY",
   services: [
     [
       "browserstack",
