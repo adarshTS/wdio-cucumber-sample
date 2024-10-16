@@ -4,6 +4,21 @@ exports.config = {
   // Runner Configuration
   // ====================
   // WebdriverIO supports running e2e tests as well as unit and component tests.
+  user: "adarshsreeram_y1cpaK",
+  key: "gH9Xyys3zCNXyC81VDo8",
+  services: [
+    [
+      "browserstack",
+      {
+        testObservability: true,
+        testObservabilityOptions: {
+          projectName: "wdio-cucumber-sample",
+          buildName: "Nightly regression",
+        },
+        browserstackLocal: true,
+      },
+    ],
+  ],
   runner: "local",
   //
   // ==================
@@ -51,6 +66,11 @@ exports.config = {
     {
       // capabilities for local browser web tests
       browserName: "chrome", // or "firefox", "microsoftedge", "safari"
+      "bstack:options": {
+        browserVersion: "120.0",
+        os: "Windows",
+        osVersion: "10",
+      },
     },
   ],
 
