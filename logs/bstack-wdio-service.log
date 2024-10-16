@@ -1,4 +1,4 @@
-[90m2024-10-16T09:12:16.881Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
+[90m2024-10-16T09:26:38.072Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
   userName: 'adarshsreeram_y1cpaK',
   accessKey: 'gH9Xyys3zCNXyC81VDo8',
   event_type: 'SDKTestAttempted',
@@ -10,75 +10,126 @@
     languageVersion: 'v18.20.4',
     buildName: 'undefined',
     buildIdentifier: 'undefined',
-    sdkRunId: '9f814a79-c738-4f5c-bb61-4638a0af5999',
+    sdkRunId: '28d83ef8-29c3-45e5-915f-08ecde359bba',
     os: 'Darwin',
     hostname: 'Adarsh-RG9M5920FF',
     productMap: {
       observability: true,
-      accessibility: false,
+      accessibility: true,
       percy: false,
       automate: true,
       app_automate: false
     },
-    product: [ 'observability', 'automate' ]
+    product: [ 'observability', 'accessibility', 'automate' ]
   }
 }
-[90m2024-10-16T09:12:18.230Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel event success
-[90m2024-10-16T09:12:18.230Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m app is not defined in browserstack-service config, skipping ...
-[90m2024-10-16T09:12:18.231Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending launch start event
-[90m2024-10-16T09:12:19.218Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [Start_Build] Success response: {"build_hashed_id":"kdfbgsx9x7lerrzazhtwr59axdxpnqg6rom2vqy0","jwt":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiI2NDIzNzgxIiwiZ3JvdXBfaWQiOjYzMzc1MzcsInVzZXJfaWQiOjY0MjM3ODEsImJ1aWxkX2hhc2hlZF9pZCI6ImtkZmJnc3g5eDdsZXJyemF6aHR3cjU5YXhkeHBucWc2cm9tMnZxeTAiLCJwcm9qZWN0X25hbWUiOiJ3ZGlvLWN1Y3VtYmVyLXNhbXBsZSIsImhvb2tfYXNfdGVzdCI6IjEiLCJidWlsZF9uYW1lIjoiTmlnaHRseSByZWdyZXNzaW9uIiwicHJvZHVjdF9tYXAiOiJ7XCJvYnNlcnZhYmlsaXR5XCI6dHJ1ZSxcIm9yaWdpbkZyb21Qcm9kdWN0TWFwXCI6XCJVbmtub3duR3JpZFwiLFwiYnN0YWNrQXV0b21hdGlvblwiOmZhbHNlLFwiY2FkXCI6dHJ1ZX0iLCJncnJfcmVnaW9uIjoiIiwic2lnbmluZ19rZXlfaGFzaCI6IjdkZjZlNjgzYzY3MDkxYjZiY2FiNDk1ZTNmN2YyYWExNjljNzVmMzFmYmFmYTUwZjQ3MDI0YzgxYjllNzA1M2QiLCJpYXQiOjE3MjkwNjk5MzksImV4cCI6MTcyOTQxNTUzOX0.oT2ct_RuFfqsEzNz55dw7zzXHcYg9Jouq9DI5E7cD3E","allow_screenshots":true}
-[90m2024-10-16T09:12:30.088Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Browserstack Local successfully started after 10865.402584075928ms
-[90m2024-10-16T09:12:43.855Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Requesting Browserstack session URL at https://api.browserstack.com/automate/sessions/dd7221693d91c395a8a751329872d658738805a9.json
-[90m2024-10-16T09:12:44.321Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Windows 10 chrome 120.0 session: https://automate.browserstack.com/builds/f473dc8cee6dbeb47ee0fc1a0977f05ab20f6a0b/sessions/dd7221693d91c395a8a751329872d658738805a9
-[90m2024-10-16T09:12:44.411Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId dd7221693d91c395a8a751329872d658738805a9
-[90m2024-10-16T09:12:44.411Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api.browserstack.com/automate/sessions/dd7221693d91c395a8a751329872d658738805a9.json with request body: 
-[90m2024-10-16T09:12:45.019Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2024-10-16T09:12:45.062Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2024-10-16T09:12:45.106Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2024-10-16T09:12:47.021Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 3, Queue length after removal = 0
-[90m2024-10-16T09:12:47.021Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
-[90m2024-10-16T09:12:47.022Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 3
-[90m2024-10-16T09:12:47.834Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2024-10-16T09:12:47.835Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 3
-[90m2024-10-16T09:12:49.656Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2024-10-16T09:12:49.705Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2024-10-16T09:12:49.850Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2024-10-16T09:12:49.961Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
-[90m2024-10-16T09:12:50.031Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
-[90m2024-10-16T09:12:50.588Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
-[90m2024-10-16T09:12:51.014Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 7
-[90m2024-10-16T09:12:51.021Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 7, Queue length after removal = 0
-[90m2024-10-16T09:12:51.022Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
-[90m2024-10-16T09:12:51.022Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 7
-[90m2024-10-16T09:12:51.086Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2024-10-16T09:12:51.165Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2024-10-16T09:12:51.390Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2024-10-16T09:12:51.390Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 7
-[90m2024-10-16T09:12:51.661Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2024-10-16T09:12:51.738Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
-[90m2024-10-16T09:12:51.742Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
-[90m2024-10-16T09:12:51.743Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after scenario hook. Before sending test stop event
-[90m2024-10-16T09:12:51.745Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId dd7221693d91c395a8a751329872d658738805a9
-[90m2024-10-16T09:12:51.745Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api.browserstack.com/automate/sessions/dd7221693d91c395a8a751329872d658738805a9.json with request body: 
-[90m2024-10-16T09:12:52.182Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
-[90m2024-10-16T09:12:52.182Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown started
-[90m2024-10-16T09:12:52.182Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Shutting down request queue
-[90m2024-10-16T09:12:52.182Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind SHUTDOWN_QUEUE
-[90m2024-10-16T09:12:52.182Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 5
-[90m2024-10-16T09:12:52.453Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2024-10-16T09:12:52.453Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 5
-[90m2024-10-16T09:12:52.453Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown ended
-[90m2024-10-16T09:12:52.454Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
-[90m2024-10-16T09:12:53.724Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2024-10-16T09:12:53.724Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Force request-queue shutdown, as test run event is received after teardown
-[90m2024-10-16T09:12:53.724Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 1, Queue length after removal = 0
-[90m2024-10-16T09:12:53.724Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
-[90m2024-10-16T09:12:53.724Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 1
-[90m2024-10-16T09:12:53.854Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Inside OnComplete hook..
-[90m2024-10-16T09:12:53.854Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
-[90m2024-10-16T09:12:54.126Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [STOP_BUILD] Success response: ""
-[90m2024-10-16T09:12:54.127Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Reading worker file worker-data-81237.json
-[90m2024-10-16T09:12:54.131Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
+[90m2024-10-16T09:26:38.551Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel event success
+[90m2024-10-16T09:26:38.551Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m app is not defined in browserstack-service config, skipping ...
+[90m2024-10-16T09:26:39.477Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [Create Accessibility Test Run] Success response: {"success":true,"data":{"id":89257,"scannerVersion":"https://browserstack-accessibility-prod-use1.s3.amazonaws.com/headless-extension/chrome/release-versions/0.4.11.0.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA2XUQHUQMJRZX3CMY%2F20241016%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241016T092639Z&X-Amz-Expires=43200&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIHYTnXElJS14ZxDo%2FkJlxhpSNkQCserJv9%2F44rEzTQ3QAiAEkyTGJGoMy6awNd3GhdETYjxuMjGldt1fapbhcP0sVCqABQgTEAAaDDczNzk2MzEyMzczNiIMbnRrgIpdoj8JG3mkKt0EkMqH41AV28bFr84jEDPV45vgaXzZ0FxdMfvjj5W0z4zEK%2B2nsW28%2FO9v7YJoaVInCbadfiZs6Xmpgav5AhM5psKQpi9Fri9ApMjsMrrvVvmH7SvLkIt995ObEcgTaa9pF5b%2FwoAwWQtV4qW7mSO6sxgfBj0mqR1hMiZbSh30%2BahSbto1HkX5q0xDg4forJXcnYaHQMq4L7i54iojjT8lT9jS6Ij%2BQwUmlT8UC7%2BYxgkI8jyKkcrTAxjV1Tx90h2AiaJ7r21YEdPDgHT7fm3qXLkgTd602ZeVg113kILsDhnMhq0xYv4xxi39UNvqdL3pAZf0HxIXd%2FgCm4EExptrLg%2Bc0RuUXF6sz%2Fq6H%2BQTae1geQY2RnB0vWJAICZI2As6iV5RCFppWF%2BifU7xdci7N0usZDBqeZWeGLe5Yj5suKwFN8p1kV76ZJfYp3IydNrdmhLk2%2FjL6HEktGnhTN4pBfAMK6sXpSc%2BtGA9Zl85JMWCXlYlvZOkTY2AO0QTiyHcbQ%2B%2Fj3JcJ6ldIk5l%2F6ooKR5p6ltuAcZmv%2BFkyD%2FIbXMGLELv6CubsLKXJl1NQJTvZ%2FtBl%2BqAtpPQZbn0NGSmE2asFeZ2AR%2FxKn5pV6w9TKn%2FwK3kfU%2FdPg9xJMA8jr%2BUDQVFr40PDXsUw0ee%2FfmYfUDozslZWhdGn%2Ft2T5UDkO4zXbKffVlRTleM7H7%2BkEliJD1C8SpiMCvECUwOZ5XbhkUQeCIEzokDHruMcYqmYxXNbeKc%2Bt6griMrGPA9RKjL8Bz5UglNpdqCamv%2F3XRyO373YKjmcYbElrCKa90wz42%2BuAY6mwHVhovYlB8O%2FjplssjApA4uA8AL%2BKXjP7PGt5jWeMk2s800j1Bd1uC%2Bz0%2FvcqdL30CxbkGDjJ7Arcqv3PaqqGSfk0ypUMvH7hbIqikG%2BZyOMDdYrSLiMCjgN%2Fj5VvGk8bdMmGnWYQiQyOPwM0PP8ElLtVZcrGTnCtLhMu5bUOYZf%2BghcNjbdqFTLpmq648%2F2Yxfp%2BB696yN8zTlsw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=02497905a31824f5780fe71a8348914aec2c0d74ae3d886fda72509c1b20f04a","commands":[{"name":"url","library":"webdriverio","module":"webdriverio","class":"Browser","method":"url"},{"name":"action","library":"webdriverio","module":"webdriverio","class":"Browser","method":"action"},{"name":"actions","library":"webdriverio","module":"webdriverio","class":"Browser","method":"actions"},{"name":"keys","library":"webdriverio","module":"webdriverio","class":"Browser","method":"keys"},{"name":"scroll","library":"webdriverio","module":"webdriverio","class":"Browser","method":"scroll"},{"name":"setWindowSize","library":"webdriverio","module":"webdriverio","class":"Browser","method":"setWindowSize"},{"name":"touchAction","library":"webdriverio","module":"webdriverio","class":"Browser","method":"touchAction"},{"name":"touchAction","library":"webdriverio","module":"webdriverio","class":"Element","method":"touchAction"},{"name":"addValue","library":"webdriverio","module":"webdriverio","class":"Element","method":"addValue"},{"name":"clearValue","library":"webdriverio","module":"webdriverio","class":"Element","method":"clearValue"},{"name":"click","library":"webdriverio","module":"webdriverio","class":"Element","method":"click"},{"name":"doubleClick","library":"webdriverio","module":"webdriverio","class":"Element","method":"doubleClick"},{"name":"dragAndDrop","library":"webdriverio","module":"webdriverio","class":"Element","method":"dragAndDrop"},{"name":"moveTo","library":"webdriverio","module":"webdriverio","class":"Element","method":"moveTo"},{"name":"scrollIntoView","library":"webdriverio","module":"webdriverio","class":"Element","method":"scrollIntoView"},{"name":"selectByAttribute","library":"webdriverio","module":"webdriverio","class":"Element","method":"selectByAttribute"},{"name":"selectByVisibleText","library":"webdriverio","module":"webdriverio","class":"Element","method":"selectByVisibleText"},{"name":"setValue","library":"webdriverio","module":"webdriverio","class":"Element","method":"setValue"},{"name":"waitForClickable","library":"webdriverio","module":"webdriverio","class":"Element","method":"waitForClickable"},{"name":"waitForDisplayed","library":"webdriverio","module":"webdriverio","class":"Element","method":"waitForDisplayed"},{"name":"waitForEnabled","library":"webdriverio","module":"webdriverio","class":"Element","method":"waitForEnabled"},{"name":"waitForExist","library":"webdriverio","module":"webdriverio","class":"Element","method":"waitForExist"},{"name":"waitForStable","library":"webdriverio","module":"webdriverio","class":"Element","method":"waitForStable"},{"name":"waitUntil","library":"webdriverio","module":"webdriverio","class":"Element","method":"waitUntil"},{"name":"waitUntil","library":"webdriverio","module":"webdriverio","class":"Browser","method":"waitUntil"},{"name":"call","library":"webdriverio","module":"webdriverio","class":"Browser","method":"call"},{"name":"execute","library":"webdriverio","module":"webdriverio","class":"Browser","method":"execute"},{"name":"executeAsync","library":"webdriverio","module":"webdriverio","class":"Browser","method":"executeAsync"},{"name":"addCommand","library":"webdriverio","module":"webdriverio","class":"Browser","method":"addCommand"}],"scripts":{"scan":"/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\nconst payloadToSend = arguments[0];\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error('Accessibility Automation Scanner is not ready on the page.'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: 'success' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction scanForAccessibility() {\n  const requestEvent = new CustomEvent('A11Y_SCAN', { detail: payloadToSend });\n  const responseEvent = 'A11Y_SCAN_FINISHED';\n\n  const responseEventListener = () => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner completed the scan.\");\n    callback({ success: true, msg: \"Accessibility Automation Scanner completed the scan.\" });\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner to perform a scan.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector('#accessibility-automation-element');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  scanForAccessibility();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === 'success') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        scanForAccessibility();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to perform accessibility scan, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to perform accessibility scan, Invalid URL.\" });\n}\n","saveResults":"/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\nconst payloadToSend = arguments[0];\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error('Accessibility Automation Scanner is not ready on the page.'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: 'success' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction saveAccessibilityResults() {\n  const requestEvent = new CustomEvent('A11Y_SAVE_RESULTS', { detail: payloadToSend });\n  const responseEvent = 'A11Y_RESULTS_SAVED';\n\n  const responseEventListener = () => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner saved the test case results.\");\n    callback({ success: true, msg: \"Accessibility Automation Scanner saved the test case results.\" });\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner to save the test case results.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector('#accessibility-automation-element');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  saveAccessibilityResults();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === 'success') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        saveAccessibilityResults();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to save accessibility results, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to save accessibility results, Invalid URL.\" });\n}\n","getResults":"/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error('Accessibility Automation Scanner is not ready on the page.'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: 'success' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction getAccessibilityResults() {\n  const requestEvent = new CustomEvent('A11Y_GET_RESULTS');\n  const responseEvent = 'A11Y_RESULTS_RESPONSE';\n\n  const responseEventListener = () => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner provided the results.\");\n    callback(event.detail);\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner for the results.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector('#accessibility-automation-element');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  getAccessibilityResults();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === 'success') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        getAccessibilityResults();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to fetch accessibility results, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to fetch accessibility results, Invalid URL.\" });\n}\n","getResultsSummary":"/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error('Accessibility Automation Scanner is not ready on the page.'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: 'success' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction getAccessibilityResultsSummary() {\n  const requestEvent = new CustomEvent('A11Y_GET_RESULTS_SUMMARY');\n  const responseEvent = 'A11Y_RESULTS_SUMMARY';\n\n  const responseEventListener = () => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner provided the summary of the results.\");\n    callback(event.detail);\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner for the summary of results.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector('#accessibility-automation-element');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  getAccessibilityResultsSummary();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === 'success') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        getAccessibilityResultsSummary();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to fetch accessibility results summary, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to fetch accessibility results summary, Invalid URL.\" });\n}\n"},"thBuildId":"wjzi7zyga6oalqy1hpjr1fyi6qq9sdaho9mmubsu","accessibilityToken":"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo2NDIzNzgxLCJ0ZXN0X3J1bl9pZCI6ODkyNTcsImExMXlfY29yZV9jb25maWciOnsiZGlzYWJsZV9hMTF5X2VuZ2luZV9jb25maWciOmZhbHNlLCJkaXNhYmxlX2ExMXlfZW5naW5lX2V4cGVyaW1lbnRhbF9ydWxlcyI6ZmFsc2UsImRvbUZvcmdlIjpmYWxzZSwiZXhjbHVkZV9ydWxlcyI6W10sImFkdmFuY2VkIjp0cnVlfSwic2Nhbm5lcl92ZXJzaW9uIjoiMC40LjExLjAiLCJhZHZhbmNlZF9zY2FuX3RpbWVvdXQiOjE1LCJyY3QiOjI1LCJhdXRvbWF0aW9uIjp0cnVlLCJleHAiOjE3MjkyNDM1OTl9.BKD9mzeNPmbBlc7dmOe7dG-7HYQF94kzhUAZnZ69e9c"}}
+[90m2024-10-16T09:26:39.478Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m BrowserStack Accessibility Automation Test Run ID: 89257
+[90m2024-10-16T09:26:39.480Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility scannerVersion https://browserstack-accessibility-prod-use1.s3.amazonaws.com/headless-extension/chrome/release-versions/0.4.11.0.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA2XUQHUQMJRZX3CMY%2F20241016%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241016T092639Z&X-Amz-Expires=43200&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIHYTnXElJS14ZxDo%2FkJlxhpSNkQCserJv9%2F44rEzTQ3QAiAEkyTGJGoMy6awNd3GhdETYjxuMjGldt1fapbhcP0sVCqABQgTEAAaDDczNzk2MzEyMzczNiIMbnRrgIpdoj8JG3mkKt0EkMqH41AV28bFr84jEDPV45vgaXzZ0FxdMfvjj5W0z4zEK%2B2nsW28%2FO9v7YJoaVInCbadfiZs6Xmpgav5AhM5psKQpi9Fri9ApMjsMrrvVvmH7SvLkIt995ObEcgTaa9pF5b%2FwoAwWQtV4qW7mSO6sxgfBj0mqR1hMiZbSh30%2BahSbto1HkX5q0xDg4forJXcnYaHQMq4L7i54iojjT8lT9jS6Ij%2BQwUmlT8UC7%2BYxgkI8jyKkcrTAxjV1Tx90h2AiaJ7r21YEdPDgHT7fm3qXLkgTd602ZeVg113kILsDhnMhq0xYv4xxi39UNvqdL3pAZf0HxIXd%2FgCm4EExptrLg%2Bc0RuUXF6sz%2Fq6H%2BQTae1geQY2RnB0vWJAICZI2As6iV5RCFppWF%2BifU7xdci7N0usZDBqeZWeGLe5Yj5suKwFN8p1kV76ZJfYp3IydNrdmhLk2%2FjL6HEktGnhTN4pBfAMK6sXpSc%2BtGA9Zl85JMWCXlYlvZOkTY2AO0QTiyHcbQ%2B%2Fj3JcJ6ldIk5l%2F6ooKR5p6ltuAcZmv%2BFkyD%2FIbXMGLELv6CubsLKXJl1NQJTvZ%2FtBl%2BqAtpPQZbn0NGSmE2asFeZ2AR%2FxKn5pV6w9TKn%2FwK3kfU%2FdPg9xJMA8jr%2BUDQVFr40PDXsUw0ee%2FfmYfUDozslZWhdGn%2Ft2T5UDkO4zXbKffVlRTleM7H7%2BkEliJD1C8SpiMCvECUwOZ5XbhkUQeCIEzokDHruMcYqmYxXNbeKc%2Bt6griMrGPA9RKjL8Bz5UglNpdqCamv%2F3XRyO373YKjmcYbElrCKa90wz42%2BuAY6mwHVhovYlB8O%2FjplssjApA4uA8AL%2BKXjP7PGt5jWeMk2s800j1Bd1uC%2Bz0%2FvcqdL30CxbkGDjJ7Arcqv3PaqqGSfk0ypUMvH7hbIqikG%2BZyOMDdYrSLiMCjgN%2Fj5VvGk8bdMmGnWYQiQyOPwM0PP8ElLtVZcrGTnCtLhMu5bUOYZf%2BghcNjbdqFTLpmq648%2F2Yxfp%2BB696yN8zTlsw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=02497905a31824f5780fe71a8348914aec2c0d74ae3d886fda72509c1b20f04a
+[90m2024-10-16T09:26:39.480Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending launch start event
+[90m2024-10-16T09:26:40.471Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [Start_Build] Success response: {"build_hashed_id":"l53ehir0vqhjzk7z6ycd1enwdxxq1myp3ysfmequ","jwt":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiI2NDIzNzgxIiwiZ3JvdXBfaWQiOjYzMzc1MzcsInVzZXJfaWQiOjY0MjM3ODEsImJ1aWxkX2hhc2hlZF9pZCI6Imw1M2VoaXIwdnFoanprN3o2eWNkMWVud2R4eHExbXlwM3lzZm1lcXUiLCJob29rX2FzX3Rlc3QiOiIxIiwiYnVpbGRfbmFtZSI6IndkaW8tY3VjdW1iZXItc2FtcGxlIiwicHJvZHVjdF9tYXAiOiJ7XCJvYnNlcnZhYmlsaXR5XCI6dHJ1ZSxcIm9yaWdpbkZyb21Qcm9kdWN0TWFwXCI6XCJVbmtub3duR3JpZFwiLFwiYnN0YWNrQXV0b21hdGlvblwiOmZhbHNlLFwiY2FkXCI6dHJ1ZX0iLCJncnJfcmVnaW9uIjoiIiwic2lnbmluZ19rZXlfaGFzaCI6IjdkZjZlNjgzYzY3MDkxYjZiY2FiNDk1ZTNmN2YyYWExNjljNzVmMzFmYmFmYTUwZjQ3MDI0YzgxYjllNzA1M2QiLCJpYXQiOjE3MjkwNzA4MDAsImV4cCI6MTcyOTQxNjQwMH0.4uY3_4p9XoKBs4elsmI6g2gZ2a-1MVE6VgmCftUaxWo","allow_screenshots":true}
+[90m2024-10-16T09:26:40.471Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m browserstackLocal is not enabled - skipping...
+[90m2024-10-16T09:26:53.574Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Requesting Browserstack session URL at https://api.browserstack.com/automate/sessions/b9e6fb44b50e5fdff9bdcfd1a12191722a81154f.json
+[90m2024-10-16T09:26:54.268Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Windows 10 chrome 120.0 session: https://automate.browserstack.com/builds/f473dc8cee6dbeb47ee0fc1a0977f05ab20f6a0b/sessions/b9e6fb44b50e5fdff9bdcfd1a12191722a81154f
+[90m2024-10-16T09:26:54.354Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId b9e6fb44b50e5fdff9bdcfd1a12191722a81154f
+[90m2024-10-16T09:26:54.354Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api.browserstack.com/automate/sessions/b9e6fb44b50e5fdff9bdcfd1a12191722a81154f.json with request body: 
+[90m2024-10-16T09:26:54.827Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2024-10-16T09:26:54.890Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2024-10-16T09:26:54.932Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2024-10-16T09:26:54.974Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2024-10-16T09:26:54.975Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Performing scan for Browser url
+[90m2024-10-16T09:26:55.046Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
+[90m2024-10-16T09:26:55.046Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m {
+  msg: 'Unable to perform accessibility scan, Invalid URL.',
+  success: false
+}
+[90m2024-10-16T09:26:55.914Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
+[90m2024-10-16T09:26:55.985Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 7
+[90m2024-10-16T09:26:55.986Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Performing scan for Browser waitUntil
+[90m2024-10-16T09:26:56.829Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 7, Queue length after removal = 0
+[90m2024-10-16T09:26:56.830Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2024-10-16T09:26:56.830Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 7
+[90m2024-10-16T09:26:57.713Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2024-10-16T09:26:57.713Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 7
+[90m2024-10-16T09:27:01.587Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2024-10-16T09:27:01.587Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m {
+  msg: 'Accessibility Automation Scanner completed the scan.',
+  success: true
+}
+[90m2024-10-16T09:27:01.695Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2024-10-16T09:27:01.783Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2024-10-16T09:27:01.843Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2024-10-16T09:27:01.946Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
+[90m2024-10-16T09:27:01.953Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Performing scan for Element click
+[90m2024-10-16T09:27:02.833Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 5, Queue length after removal = 0
+[90m2024-10-16T09:27:02.834Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2024-10-16T09:27:02.834Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 5
+[90m2024-10-16T09:27:03.117Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2024-10-16T09:27:03.117Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 5
+[90m2024-10-16T09:27:04.173Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2024-10-16T09:27:04.174Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m {
+  msg: 'Accessibility Automation Scanner completed the scan.',
+  success: true
+}
+[90m2024-10-16T09:27:04.376Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2024-10-16T09:27:04.426Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2024-10-16T09:27:04.430Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Performing scan for Browser waitUntil
+[90m2024-10-16T09:27:04.835Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 3, Queue length after removal = 0
+[90m2024-10-16T09:27:04.835Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2024-10-16T09:27:04.835Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 3
+[90m2024-10-16T09:27:05.118Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2024-10-16T09:27:05.118Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 3
+[90m2024-10-16T09:27:07.285Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2024-10-16T09:27:07.286Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m {
+  msg: 'Accessibility Automation Scanner completed the scan.',
+  success: true
+}
+[90m2024-10-16T09:27:07.355Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2024-10-16T09:27:07.425Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2024-10-16T09:27:07.430Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2024-10-16T09:27:07.431Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after scenario hook. Before sending test stop event
+[90m2024-10-16T09:27:07.431Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Automate test case execution has ended. Processing for accessibility testing is underway. 
+[90m2024-10-16T09:27:07.431Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Performing scan before saving results
+[90m2024-10-16T09:27:08.553Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
+[90m2024-10-16T09:27:08.554Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m {
+  msg: 'Accessibility Automation Scanner completed the scan.',
+  success: true
+}
+[90m2024-10-16T09:27:08.837Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 5, Queue length after removal = 0
+[90m2024-10-16T09:27:08.837Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2024-10-16T09:27:08.837Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 5
+[90m2024-10-16T09:27:09.119Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2024-10-16T09:27:09.119Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 5
+[90m2024-10-16T09:27:09.807Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2024-10-16T09:27:09.807Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m {
+  msg: 'Accessibility Automation Scanner saved the test case results.',
+  success: true
+}
+[90m2024-10-16T09:27:09.809Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Accessibility testing for this test case has ended.
+[90m2024-10-16T09:27:09.812Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId b9e6fb44b50e5fdff9bdcfd1a12191722a81154f
+[90m2024-10-16T09:27:09.812Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api.browserstack.com/automate/sessions/b9e6fb44b50e5fdff9bdcfd1a12191722a81154f.json with request body: 
+[90m2024-10-16T09:27:10.267Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
+[90m2024-10-16T09:27:10.267Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown started
+[90m2024-10-16T09:27:10.267Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Shutting down request queue
+[90m2024-10-16T09:27:10.267Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind SHUTDOWN_QUEUE
+[90m2024-10-16T09:27:10.267Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 1
+[90m2024-10-16T09:27:10.553Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2024-10-16T09:27:10.553Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 1
+[90m2024-10-16T09:27:10.553Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown ended
+[90m2024-10-16T09:27:10.553Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
+[90m2024-10-16T09:27:11.856Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2024-10-16T09:27:11.856Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Force request-queue shutdown, as test run event is received after teardown
+[90m2024-10-16T09:27:11.856Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 1, Queue length after removal = 0
+[90m2024-10-16T09:27:11.856Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2024-10-16T09:27:11.856Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 1
+[90m2024-10-16T09:27:11.985Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Inside OnComplete hook..
+[90m2024-10-16T09:27:12.519Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m BrowserStack Accessibility Automation Test Run marked as completed at 2024-10-16T09:27:12.519Z
+[90m2024-10-16T09:27:12.519Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
+[90m2024-10-16T09:27:12.797Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [STOP_BUILD] Success response: ""
+[90m2024-10-16T09:27:12.798Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Reading worker file worker-data-8600.json
+[90m2024-10-16T09:27:12.803Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
   userName: 'adarshsreeram_y1cpaK',
   accessKey: 'gH9Xyys3zCNXyC81VDo8',
   event_type: 'SDKTestSuccessful',
@@ -90,23 +141,23 @@
     languageVersion: 'v18.20.4',
     buildName: 'undefined',
     buildIdentifier: 'undefined',
-    sdkRunId: '9f814a79-c738-4f5c-bb61-4638a0af5999',
+    sdkRunId: '28d83ef8-29c3-45e5-915f-08ecde359bba',
     os: 'Darwin',
     hostname: 'Adarsh-RG9M5920FF',
     productMap: {
       observability: true,
-      accessibility: false,
+      accessibility: true,
       percy: false,
       automate: true,
       app_automate: false
     },
-    product: [ 'observability', 'automate' ],
-    testhub_uuid: 'kdfbgsx9x7lerrzazhtwr59axdxpnqg6rom2vqy0',
+    product: [ 'observability', 'accessibility', 'automate' ],
+    testhub_uuid: 'l53ehir0vqhjzk7z6ycd1enwdxxq1myp3ysfmequ',
     productUsage: {
       testObservability: {
         enabled: true,
-        manuallySet: true,
-        buildHashedId: 'kdfbgsx9x7lerrzazhtwr59axdxpnqg6rom2vqy0',
+        manuallySet: false,
+        buildHashedId: 'l53ehir0vqhjzk7z6ycd1enwdxxq1myp3ysfmequ',
         events: {
           buildEvents: {
             started: { isTriggered: true, status: 'success', error: undefined },
@@ -122,10 +173,10 @@
             finished: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
           },
           logEvents: {
-            triggeredCount: 13,
-            sentCount: 13,
+            triggeredCount: 19,
+            sentCount: 19,
             failedCount: 0,
-            http: { triggeredCount: 13, sentCount: 13, failedCount: 0 }
+            http: { triggeredCount: 19, sentCount: 19, failedCount: 0 }
           },
           cbtSessionEvents: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
         }
@@ -133,8 +184,8 @@
     }
   }
 }
-[90m2024-10-16T09:12:54.451Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel event success
-[90m2024-10-16T09:12:55.775Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Response - {
+[90m2024-10-16T09:27:14.060Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel event success
+[90m2024-10-16T09:27:15.461Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Response - {
   status: 'success',
   message: 'Logs upload successful in file - logs.gz'
 }

@@ -10,12 +10,22 @@ exports.config = {
     [
       "browserstack",
       {
+        accessibility: true,
+        // Optional configuration options
+        accessibilityOptions: {
+          wcagVersion: "wcag21a",
+          includeIssueType: {
+            bestPractice: false,
+            needsReview: true,
+          },
+        },
+      },
+      {
         testObservability: true,
         testObservabilityOptions: {
           projectName: "wdio-cucumber-sample",
           buildName: "Nightly regression",
         },
-        browserstackLocal: true,
       },
     ],
   ],
